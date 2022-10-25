@@ -1,0 +1,26 @@
+{
+    "name": "theme-low",
+    "displayName": "Low",
+    "description": "A low-key color theme",
+    "version": "0.0.1",
+    "publisher": "Brendan Desmond",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/brdsm/low-vscode-theme"
+	},
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Low",
+                "uiTheme": "vs",
+                "path": "./low-color-theme.json"
+            }
+        ]
+    }
+}
